@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <work>
+  <answer/>
+  <wait>2</wait>
+  <playback file="intro.wav" input-timeout="50000">
+    <bind action="https://oxyp1-1.onrender.com/connect">1</bind>
+  </playback>
+  <playback file="outro.wav"></playback>
+ </work>
+</document>
