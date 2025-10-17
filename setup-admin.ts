@@ -1,6 +1,6 @@
 
 import { db } from "./server/db.ts";
-import { users } from "@shared/schema.ts";
+import { users } from "./shared/schema.ts";
 import bcrypt from "bcrypt";
 import { eq } from "drizzle-orm";
 
