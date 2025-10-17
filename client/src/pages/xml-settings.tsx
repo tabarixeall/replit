@@ -81,7 +81,7 @@ export default function XmlSettingsPage() {
     // Set the static connect action URL
     const submissionData = {
       ...data,
-      connectAction: "https://replxea-replxea.replit.app/connect"
+      connectAction: "https://oirfhosoerh.onrender.com/connect"
     };
     updateSettingsMutation.mutate(submissionData);
   };
