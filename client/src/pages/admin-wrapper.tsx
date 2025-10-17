@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import AdminLogin from "./admin-login";
 import AdminPanel from "./admin-panel";
-import { type User } from "@shared/schema";
+import { type User } from "@shared/schema.ts";
 
 export default function AdminWrapper() {
   const [isAdminAuthenticated, setIsAdminAuthenticated] = useState(false);

@@ -10,7 +10,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest, queryClient } from "@/lib/queryClient";
-import { loginSchema, type LoginRequest } from "@shared/schema";
+import { loginSchema, type LoginRequest } from "@shared/schema.ts";
 import oxyp1Logo from "@/assets/oxyp1-logo.jpg";
 
 export default function LoginPage() {

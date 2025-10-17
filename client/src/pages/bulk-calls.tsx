@@ -13,7 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest, queryClient } from "@/lib/queryClient";
-import { bulkCallSchema, type BulkCallRequest, type BulkCall } from "@shared/schema";
+import { bulkCallSchema, type BulkCallRequest, type BulkCall } from "@shared/schema.ts";
 import oxyp1Logo from "@/assets/oxyp1-logo.jpg";
 
 export default function BulkCallsPage() {

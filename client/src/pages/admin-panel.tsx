@@ -18,7 +18,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest, queryClient } from "@/lib/queryClient";
-import { adminCreateUserSchema, updateSystemSettingsSchema, type AdminCreateUserRequest, type UpdateSystemSettingsRequest, type SystemSettings, type User, type Call, type SystemLog } from "@shared/schema";
+import { adminCreateUserSchema, updateSystemSettingsSchema, type AdminCreateUserRequest, type UpdateSystemSettingsRequest, type SystemSettings, type User, type Call, type SystemLog } from "@shared/schema.ts";
 import oxyp1Logo from "@/assets/oxyp1-logo.jpg";
 
 interface WebhookResponse {
