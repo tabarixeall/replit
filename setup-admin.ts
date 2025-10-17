@@ -1,8 +1,9 @@
 
-import { db } from "./server/db";
-import { users } from "./shared/schema";
+import { db } from "./server/db.ts";
+import { users } from "./shared/schema.ts";
 import bcrypt from "bcrypt";
 import { eq } from "drizzle-orm";
+import "dotenv/config.js";
 
 async function setupAdmin() {
   try {
