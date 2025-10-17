@@ -28,7 +28,7 @@ import {
   type AdminCreateUserRequest,
   type AdminUpdateUserRequest,
   type AdminAddCreditsRequest,
-} from "@shared/schema.ts";
+} from "@shared/schema";
 import { db } from "./db";
 import { eq, desc, count, sql, and } from "drizzle-orm";
 import bcrypt from "bcrypt";

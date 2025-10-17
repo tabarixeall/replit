@@ -11,7 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest, queryClient } from "@/lib/queryClient";
-import { updateXmlSchema, type UpdateXmlRequest, type XmlSettings } from "@shared/schema.ts";
+import { updateXmlSchema, type UpdateXmlRequest, type XmlSettings } from "@shared/schema";
 
 // Media files are returned as a simple array of filenames
 type MediaFile = string;

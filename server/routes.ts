@@ -2,12 +2,10 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { wsManager } from "./websocket";
-import { makeCallSchema, updateXmlSchema, updateSystemSettingsSchema, bulkCallSchema, formatPhoneNumber, loginSchema, registerSchema, adminCreateUserSchema, adminUpdateUserSchema, type MakeCallRequest, type UpdateXmlRequest, type UpdateSystemSettingsRequest, type BulkCallRequest, type LoginRequest, type RegisterRequest, type AdminCreateUserRequest, type AdminUpdateUserRequest } from "@shared/schema.ts";
+import { makeCallSchema, updateXmlSchema, updateSystemSettingsSchema, bulkCallSchema, formatPhoneNumber, loginSchema, registerSchema, adminCreateUserSchema, adminUpdateUserSchema, type MakeCallRequest, type UpdateXmlRequest, type UpdateSystemSettingsRequest, type BulkCallRequest, type LoginRequest, type RegisterRequest, type AdminCreateUserRequest, type AdminUpdateUserRequest } from "@shared/schema";
 import { z } from "zod";
 import session from "express-session";
 import connectPg from "connect-pg-simple";
-import dotenv from 'dotenv';
-dotenv.config();
 
 // Async function to execute bulk calling
 async function executeBulkCalling(bulkCallId: number, bulkCall: any, userId: number) {

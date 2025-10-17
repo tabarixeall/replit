@@ -97,8 +97,6 @@ var makeCallSchema = z.object({
 
 // server/routes.ts
 import { z as z2 } from "zod";
-import dotenv from 'dotenv';
-dotenv.config();
 var API_KEY = process.env.APIDAZE_API_KEY || process.env.API_KEY;
 var API_SECRET = process.env.APIDAZE_API_SECRET || process.env.API_SECRET;
 if (!API_KEY || !API_SECRET) {
