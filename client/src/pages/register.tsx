@@ -10,7 +10,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest, queryClient } from "@/lib/queryClient";
-import { registerSchema, type RegisterRequest } from "@shared/schema.js";
+import { registerSchema, type RegisterRequest } from "@shared/schema";
 import oxyp1Logo from "@/assets/oxyp1-logo.jpg";
 
 export default function RegisterPage() {

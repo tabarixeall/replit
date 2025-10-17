@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import type { User } from "@shared/schema.js";
+import type { User } from "@shared/schema";
 
 interface AuthResponse {
   success: boolean;
