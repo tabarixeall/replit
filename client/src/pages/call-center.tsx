@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest, queryClient } from "@/lib/queryClient";
-import { makeCallSchema, type MakeCallRequest, type Call } from "@shared/schema";
+import { makeCallSchema, type MakeCallRequest, type Call } from "@shared/schema.js";
 import oxyp1Logo from "@/assets/oxyp1-logo.jpg";
 
 export default function CallCenter() {
