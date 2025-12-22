@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Speak engine="flite" voice="slt">
+        Hello from Eqivo dot org! Your programmable voice platform is now fully live and speaking.
+    </Speak>
+    <Pause length="1"/>
+    <Speak engine="flite" voice="slt">
+        Congratulations! This message is spoken using the free Flite text-to-speech engine.
+    </Speak>
+    <Pause length="1"/>
+    <Speak engine="flite" voice="slt">
+        Goodbye.
+    </Speak>
+    <Hangup/>
+</Response>
