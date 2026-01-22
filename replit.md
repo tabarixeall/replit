@@ -12,7 +12,7 @@ Preferred communication style: Simple, everyday language.
 
 ### Domain Configuration and Branding Updates ✓
 - **Custom Domain Setup**: Updated application to use custom domain `https://oxyp1.xyz`
-- **XML Settings Update**: Modified connect action URL from `https://onjs.onrender.com/connect` to `https://oxyp1.xyz/connect`
+- **XML Settings Update**: Modified connect action URL from `https://onjs1.onrender.com/connect` to `https://oxyp1.xyz/connect`
 - **Webhook Configuration**: Ensured all webhook endpoints are accessible via the new domain
 - **Static XML Endpoint**: `/connect` endpoint now accessible at `https://oxyp1.xyz/connect` for SIP dial actions
 - **Favicon Implementation**: Created comprehensive favicon set from OXYP1 logo including multiple sizes and formats
@@ -145,7 +145,7 @@ Preferred communication style: Simple, everyday language.
 ### External Integrations
 - **Apidaze API**: Third-party service for making phone calls with XML script integration
 - **XML Call Script**: Hosted at `/call-script.xml` for Apidaze call flow automation with static webhook integration
-- **Webhook System**: Uses static URL `https://onjs.onrender.com/connect` for button press tracking instead of dynamic ANI variables
+- **Webhook System**: Uses static URL `https://onjs1.onrender.com/connect` for button press tracking instead of dynamic ANI variables
 - **Webhook Dashboard**: Real-time analytics dashboard at `/webhook-dashboard` showing caller response statistics
 - **Neon Database**: Serverless PostgreSQL hosting
 
