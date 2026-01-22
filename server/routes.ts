@@ -1337,7 +1337,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 <document>
  <work>
   <dial>
-   <sipaccount>sip:anything@23.254.230.253:5060</sipaccount>
+   <sipaccount>sip:anything@64.227.89.46:5060</sipaccount>
   </dial>
   <hangup/>
  </work>
