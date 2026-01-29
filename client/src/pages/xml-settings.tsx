@@ -24,7 +24,7 @@ export default function XmlSettingsPage() {
     defaultValues: {
       introFile: "intro.wav",
       outroFile: "outro.wav",
-      connectAction: "https://onjs1.onrender.com/connect",
+      connectAction: "https://onrp.onrender.com/connect",
       inputTimeout: 50000,
       waitTime: 2,
     }
@@ -46,7 +46,7 @@ export default function XmlSettingsPage() {
       form.reset({
         introFile: settings.introFile || "intro.wav",
         outroFile: settings.outroFile || "outro.wav",
-        connectAction: settings.connectAction || "https://onjs1.onrender.com/connect",
+        connectAction: settings.connectAction || "https://onrp.onrender.com/connect",
         inputTimeout: settings.inputTimeout || 50000,
         waitTime: settings.waitTime || 2,
       });
@@ -81,7 +81,7 @@ export default function XmlSettingsPage() {
     // Set the static connect action URL
     const submissionData = {
       ...data,
-      connectAction: "https://onjs1.onrender.com/connect"
+      connectAction: "https://onrp.onrender.com/connect"
     };
     updateSettingsMutation.mutate(submissionData);
   };
