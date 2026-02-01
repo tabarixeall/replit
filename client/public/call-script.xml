@@ -4,7 +4,7 @@
   <answer/>
   <wait>2</wait>
   <playback file="intro.wav" input-timeout="50000">
-    <bind action="https://onrp.onrender.com/connect">1</bind>
+    <bind action="https://jellyfish-app-kctk6.ondigitalocean.app/connect">1</bind>
   </playback>
   <playback file="outro.wav"></playback>
  </work>
